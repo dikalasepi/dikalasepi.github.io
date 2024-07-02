@@ -1,0 +1,16 @@
+{
+  "name": "my-profile-web",
+  "version": "1.0.0",
+  "description": "\"My profile web page.\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./css/style.css --watch",
+    "prod": "npx tailwindcss -i ./src/input.css -o ./css/style.css --minify"
+  },
+  "author": "Nanad",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
